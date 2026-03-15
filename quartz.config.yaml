@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: maple.minimal
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz-themes.github.io
+  baseUrl: quartz-themes.github.io/maple.minimal
   ignorePatterns:
     - private
     - templates
@@ -247,8 +247,8 @@ plugins:
   - source: github:saberzero1/quartz-themes
     enabled: true
     options:
-      theme: default
-      variation: null
+      theme: maple
+      variation: minimal
 layout:
   groups:
     toolbar:
